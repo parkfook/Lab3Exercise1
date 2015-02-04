@@ -162,6 +162,8 @@ public class MainActivity extends ActionBarActivity {
 
         GPA = GradePoint/credit;
 
+        if(credit == 0){ GPA =0 ;  }
+
         TextView tvGP = (TextView)findViewById(R.id.tvGP);
         TextView tvCr = (TextView)findViewById(R.id.tvCR);
 
