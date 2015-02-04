@@ -58,17 +58,16 @@ public class MainActivity extends ActionBarActivity {
 
                 j.putExtra("list_of_code",s);
 
-
-
-
                 startActivity(j);
                 break;
+
             case R.id.button2:
 
                 Intent i = new Intent(this,CourseActivity.class);
                 startActivityForResult(i, 23);
 
                 break;
+
             case R.id.button:
 
                 cr = 0;         // Credits
